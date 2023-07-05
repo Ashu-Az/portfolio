@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- Start of Navbar -->
+
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars" id="hamburger"></i>
+      </label>
+      <label class="logo">Welcome To My Portfolio</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="projects.html">Project</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="#">Queries</a></li>
+      </ul>
+    </nav>
+
+    <!-- End of Navbar -->
+
+    <!-- Start Of Hero Section -->
+
+    <section class="hero">
+      <div class="hero-container section-center">
+        <div class="hero-content">
+          <h1><span>I'm </span>Ashu</h1>
+          <p>An upcoming software developer</p>
+          <a href="#" class="link-btn">About</a>
+          <div class="links-container">
+            <ul class="socials-list">
+              <li>
+                <a href="https://www.linkedin.com/in/ashu-azad-097023248/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/sha.zam.9279807">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/sukuna_ash?igshid=ZDdkNTZiNTM=">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#"> <i class="fa fa-github"></i> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./d.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Hero Section -->
+
+    <!-- Start of Skills Section -->
+
+    <section class="skills">
+      <div class="skills-content section-center">
+        <h1 class="section-heading">Skills</h1>
+        <div class="underline"></div>
+
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/240px-ISO_C%2B%2B_Logo.svg.png"
+                alt=""
+              />
+            </div>
+
+            <div class="skill-name">Programming</div>
+
+            <div class="skill-text">
+              C++,python,Pandas
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+              />
+            </div>
+
+            <div class="skill-name">Chess</div>
+
+            <div class="skill-text">
+              Around 4 years experience in chess
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-logo">
+              <img
+                src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
+                alt=""
+              />
+            </div>
+
+            <div class="skill-name">Football</div>
+
+            <div class="skill-text">
+              around 7 years experience in football.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Skills Section -->
+
+    <!-- Start of Timeline Section -->
+
+    <section class="timeline">
+      <div class="timeline-container section-center">
+        <h1 class="section-heading">Timeline</h1>
+        <div class="underline"></div>
+        <div class="timeline-cards">
+          <div class="timeline-card time-right-border remove-top-border">
+            <span class="card-number card-number-right">1</span>
+            <h3 class="time">Martial Arts</h3>
+            <p class="time-text">
+              Won 5 gold and 2 silver medals in Karate tournaments, Currently
+              blue belt(Dojo Name: Shotokan karate International).
+            </p>
+          </div>
+          <div class="timeline-card time-left-border">
+            <span class="card-number card-number-left">2</span>
+
+            <h3 class="time">Art</h3>
+            <p class="time-text">
+              Won Government Organised Art Competition in 5th standard.
+            </p>
+          </div>
+          <div class="timeline-card time-right-border">
+            <span class="card-number card-number-right">3</span>
+
+            <h3 class="time">Science Competition</h3>
+            <p class="time-text">
+              Won 2 time Science Competition in Local School Competition
+            </p>
+          </div>
+          <div class="timeline-card time-left-border">
+            <span class="card-number card-number-left">4</span>
+
+            <h3 class="time">Hackathon</h3>
+            <p class="time-text">
+              Won Hackathon 4 times.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Timeline Section -->
+
+    <!-- Start of Footer Section -->
+    <section class="footer">
+      <div class="footer-container">
+        <ul class="footer-links">
+          <li>
+            <a href="#" class="footer-link"><i class="fa fa-linkedin"></i> </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link"><i class="fa fa-facebook"></i> </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link"><i class="fa fa-instagram"></i> </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link"><i class="fa fa-github"></i> </a>
+          </li>
+        </ul>
+        <p class="footer-text">
+          &copy; 2023 Ashu Azad. All Rights Reserved
+        </p>
+      </div>
+    </section>
+    <!-- End of Footer Section -->
+  </body>
+</html>

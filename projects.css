@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* start of navbarr styling */
+.navbar {
+  padding: 10px 10px;
+  border: 5px solid yellowgreen;
+}
+.navcont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.hambar {
+  justify-self: end;
+  padding-right: 10px;
+  /* padding-top: 10px; */
+  color: black;
+}
+.home {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .hambar i {
+    display: none;
+  }
+
+  .home {
+    display: block;
+  }
+  .home li {
+    display: inline-block;
+  }
+  .home a {
+    text-decoration: none;
+    padding: 5px;
+  }
+  .home a:hover {
+    color: rgb(218, 218, 39);
+    /* transform: scale(2); */
+  }
+}
+/* project styling */
+
+.upper {
+  height: 200px;
+  background: blanchedalmond;
+}
+.upper h1 {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  padding-top: 80px;
+}
+#span {
+  /* text-decoration: underline; */
+  /* text-decoration-color: ; */
+  padding-bottom: 8px;
+  border-bottom: 5px solid gold;
+}
+.project-cont {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-area {
+  height: 200px;
+  position: relative;
+  margin-top: 3rem;
+}
+.project-content {
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  background: bisque;
+  margin-bottom: 2rem;
+}
+.project-image img {
+  height: 45px;
+}
+.dis {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .dis {
+    display: block;
+  }
+  .project-area {
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+/* footer section */
+.footer {
+  padding: 2rem 3rem;
+  background: blanchedalmond;
+  color: blue;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+.footer ul a {
+  color: black;
+  font-size: 1.5rem;
+}
